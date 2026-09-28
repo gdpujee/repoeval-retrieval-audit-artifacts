@@ -1,0 +1,4 @@
+tiktoken==0.11.0
+editdistance==0.8.1
+numpy==2.2.6
+matplotlib==3.11.2

@@ -1,0 +1,45 @@
+{
+  "check": "clean-directory reproduction of the reported V8 downstream scoring",
+  "command": "python3 scripts/score_downstream.py --outdir <clean-dir> results/downstream/v8/raw_deepseek.jsonl results/downstream/v8/raw_muse.jsonl",
+  "exit_code": 0,
+  "outdir": "<empty temporary directory>",
+  "v7_dir_untouched": true,
+  "files": {
+    "summary.json": {
+      "sha256": "6e273a49554b641e0dd5eb57257ca9062486da5a5bdbfab987f6e36eb0c1a684",
+      "identical_on_repro": true,
+      "bytes": 1761
+    },
+    "scores_deepseek-v4.1-flash.jsonl": {
+      "sha256": "e0636e0f098ff2f6af6da179843db3d6c96b9c9f4f24b5a9f199ffb1d7f9b177",
+      "identical_on_repro": true,
+      "bytes": 252660
+    },
+    "scores_muse-spark-1.3-contributor.jsonl": {
+      "sha256": "c8b5c53aecc3d2a533a29dd0e75a05f56a92f535881f51277f17e5c450958646",
+      "identical_on_repro": true,
+      "bytes": 263692
+    }
+  },
+  "all_identical": true,
+  "archive_cold_start": {
+    "archive": "supplementary_v9.zip",
+    "steps": [
+      "unzip supplementary_v9.zip into an empty directory",
+      "git submodule update --init scripts/code-rag-bench  (documented; the archive does not redistribute upstream code)",
+      "python3 scripts/score_downstream.py --outdir <clean>/repro results/downstream/v8/raw_deepseek.jsonl results/downstream/v8/raw_muse.jsonl",
+      "python3 scripts/audit_masking_order.py",
+      "python3 scripts/verify_manuscript_v9.py"
+    ],
+    "observed": {
+      "scorer_exit_code": 0,
+      "summary_identical_to_archive": true,
+      "summary_sha256": "6e273a49554b641e0dd5eb57257ca9062486da5a5bdbfab987f6e36eb0c1a684",
+      "masking_order_audit_reproduced": true,
+      "gate": "PASSED (72/72)",
+      "missing_submodule_message": "actionable SystemExit naming the exact git submodule command",
+      "gate_checks": 72
+    },
+    "note": "The authoritative hash of the published archive is written beside it as supplementary_v9.zip.sha256, not inside it, so that this file can be part of the archive without a circular hash."
+  }
+}

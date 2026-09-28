@@ -1,0 +1,118 @@
+{
+  "models": {
+    "deepseek-v4.1-flash": {
+      "n": 897,
+      "strategies": {
+        "bm25": {
+          "pass_rate": 0.11271112857700467,
+          "n": 299,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.1506849315068493,
+            "repoeval__facebookresearch_omnivore": 0.045454545454545456,
+            "repoeval__google_lightweight_mmm": 0.045454545454545456,
+            "repoeval__lucidrains_imagen-pytorch": 0.1791044776119403,
+            "repoeval__maxhumber_redframes": 0.14285714285714285
+          }
+        },
+        "coimport": {
+          "pass_rate": 0.1263185938303501,
+          "n": 299,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.1643835616438356,
+            "repoeval__facebookresearch_omnivore": 0.045454545454545456,
+            "repoeval__google_lightweight_mmm": 0.09090909090909091,
+            "repoeval__lucidrains_imagen-pytorch": 0.16417910447761194,
+            "repoeval__maxhumber_redframes": 0.16666666666666666
+          }
+        },
+        "directed": {
+          "pass_rate": 0.1275394951943715,
+          "n": 299,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.14383561643835616,
+            "repoeval__facebookresearch_omnivore": 0.0,
+            "repoeval__google_lightweight_mmm": 0.13636363636363635,
+            "repoeval__lucidrains_imagen-pytorch": 0.11940298507462686,
+            "repoeval__maxhumber_redframes": 0.23809523809523808
+          }
+        }
+      },
+      "coimport-bm25": {
+        "macro_diff": 0.013607465253345427,
+        "ci95": [
+          -0.03283582089552238,
+          0.06001897645733262
+        ]
+      },
+      "directed-bm25": {
+        "macro_diff": 0.01482836661736682,
+        "ci95": [
+          -0.05411981189940708,
+          0.08961038961038961
+        ]
+      }
+    },
+    "muse-spark-1.3-contributor": {
+      "n": 897,
+      "strategies": {
+        "bm25": {
+          "pass_rate": 0.5666209072056547,
+          "n": 299,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.4589041095890411,
+            "repoeval__facebookresearch_omnivore": 0.6363636363636364,
+            "repoeval__google_lightweight_mmm": 0.36363636363636365,
+            "repoeval__lucidrains_imagen-pytorch": 0.7313432835820896,
+            "repoeval__maxhumber_redframes": 0.6428571428571429
+          }
+        },
+        "coimport": {
+          "pass_rate": 0.5746674030665034,
+          "n": 299,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.636986301369863,
+            "repoeval__facebookresearch_omnivore": 0.5454545454545454,
+            "repoeval__google_lightweight_mmm": 0.4090909090909091,
+            "repoeval__lucidrains_imagen-pytorch": 0.6865671641791045,
+            "repoeval__maxhumber_redframes": 0.5952380952380952
+          }
+        },
+        "directed": {
+          "pass_rate": 0.6034975451863615,
+          "n": 299,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.6575342465753424,
+            "repoeval__facebookresearch_omnivore": 0.6818181818181818,
+            "repoeval__google_lightweight_mmm": 0.36363636363636365,
+            "repoeval__lucidrains_imagen-pytorch": 0.6716417910447762,
+            "repoeval__maxhumber_redframes": 0.6428571428571429
+          }
+        }
+      },
+      "coimport-bm25": {
+        "macro_diff": 0.008046495860848712,
+        "ci95": [
+          -0.08168249660786975,
+          0.10691233390067985
+        ]
+      },
+      "directed-bm25": {
+        "macro_diff": 0.03687663798070673,
+        "ci95": [
+          -0.049402338954577754,
+          0.13312577833125777
+        ]
+      }
+    }
+  },
+  "coverage": {
+    "deepseek-v4.1-flash": {
+      "evaluable_tasks": 299,
+      "total_tasks": 341
+    },
+    "muse-spark-1.3-contributor": {
+      "evaluable_tasks": 299,
+      "total_tasks": 341
+    }
+  }
+}

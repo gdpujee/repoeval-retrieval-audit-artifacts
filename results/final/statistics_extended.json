@@ -1,0 +1,77 @@
+{
+  "method": "10,000-iteration two-stage repository/query bootstrap; seed 20260913",
+  "comparisons": [
+    {
+      "comparison": "gcc_coimport - bm25",
+      "budget": 4000,
+      "n_queries": 341,
+      "n_repository_clusters": 5,
+      "macro_mean_difference": -0.0022625481265976413,
+      "cluster_bootstrap_95pct_ci": [
+        -0.004614623689289643,
+        -0.00024038461538461524
+      ],
+      "cluster_bootstrap_90pct_ci": [
+        -0.004205712960749223,
+        -0.0005291005291005294
+      ],
+      "cohens_dz_query_level_descriptive": -0.17721293581655906,
+      "per_repository_mean_differences": {
+        "repoeval__deepmind_tracr": -0.0049777527215077565,
+        "repoeval__facebookresearch_omnivore": 0.0,
+        "repoeval__google_lightweight_mmm": -0.0012019230769230761,
+        "repoeval__lucidrains_imagen-pytorch": -0.0024875621890547276,
+        "repoeval__maxhumber_redframes": -0.0026455026455026467
+      },
+      "caution": "Exploratory inference with only five repository clusters."
+    },
+    {
+      "comparison": "bm25_directed - bm25",
+      "budget": 4000,
+      "n_queries": 341,
+      "n_repository_clusters": 5,
+      "macro_mean_difference": -0.04667027717003337,
+      "cluster_bootstrap_95pct_ci": [
+        -0.09529851596769451,
+        -0.009812801034480349
+      ],
+      "cluster_bootstrap_90pct_ci": [
+        -0.0867188989290576,
+        -0.013657394285447518
+      ],
+      "cohens_dz_query_level_descriptive": -0.5695071610981124,
+      "per_repository_mean_differences": {
+        "repoeval__deepmind_tracr": -0.04761706069517045,
+        "repoeval__facebookresearch_omnivore": 0.0,
+        "repoeval__google_lightweight_mmm": -0.04064740883203054,
+        "repoeval__lucidrains_imagen-pytorch": -0.13715040838645792,
+        "repoeval__maxhumber_redframes": -0.007936507936507938
+      },
+      "caution": "Exploratory inference with only five repository clusters."
+    },
+    {
+      "comparison": "codesage_small_v2 - bm25",
+      "budget": 4000,
+      "n_queries": 341,
+      "n_repository_clusters": 5,
+      "macro_mean_difference": -0.0007174711023843205,
+      "cluster_bootstrap_95pct_ci": [
+        -0.04161443792284444,
+        0.03674010070074364
+      ],
+      "cluster_bootstrap_90pct_ci": [
+        -0.035544252711201145,
+        0.03140881395411305
+      ],
+      "cohens_dz_query_level_descriptive": -0.024320321572171216,
+      "per_repository_mean_differences": {
+        "repoeval__deepmind_tracr": 0.003992684204201284,
+        "repoeval__facebookresearch_omnivore": 0.030500790382213292,
+        "repoeval__google_lightweight_mmm": 0.04892945070493046,
+        "repoeval__lucidrains_imagen-pytorch": -0.07465491130504,
+        "repoeval__maxhumber_redframes": -0.012355369498226642
+      },
+      "caution": "Exploratory inference with only five repository clusters."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": "codesage/codesage-small-v2",
+  "model_revision": "4844c2f24b25e181aa43ca058cc73dd2622565c1",
+  "model_max_seq_length": 1024,
+  "embedding_dimension": 1024,
+  "python": "3.13.3",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "torch": "2.14.0",
+  "transformers": "4.57.6",
+  "sentence_transformers": "5.1.1",
+  "numpy": "2.5.3",
+  "device": "mps"
+}

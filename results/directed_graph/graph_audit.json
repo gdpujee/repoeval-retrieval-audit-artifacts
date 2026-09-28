@@ -1,0 +1,262 @@
+[
+  {
+    "repo": "deepmind_tracr",
+    "source_exists": true,
+    "corpus_files": 50,
+    "mapped_python_files": 50,
+    "import_statements": 287,
+    "resolved_local_import_statements": 136,
+    "resolution_rate": 0.4738675958188153,
+    "directed_file_edges": 192,
+    "sample_edges": [
+      [
+        "deepmind_tracr-tracr-compiler-__init__.py",
+        "deepmind_tracr-tracr-compiler-compiling.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble.py",
+        "deepmind_tracr-tracr-__init__.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble.py",
+        "deepmind_tracr-tracr-craft-bases.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble.py",
+        "deepmind_tracr-tracr-craft-transformers.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble.py",
+        "deepmind_tracr-tracr-craft-vectorspace_fns.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble.py",
+        "deepmind_tracr-tracr-transformer-encoder.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble.py",
+        "deepmind_tracr-tracr-transformer-model.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble_test.py",
+        "deepmind_tracr-tracr-__init__.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble_test.py",
+        "deepmind_tracr-tracr-compiler-__init__.py"
+      ],
+      [
+        "deepmind_tracr-tracr-compiler-assemble_test.py",
+        "deepmind_tracr-tracr-compiler-assemble.py"
+      ]
+    ]
+  },
+  {
+    "repo": "facebookresearch_omnivore",
+    "source_exists": true,
+    "corpus_files": 57,
+    "mapped_python_files": 57,
+    "import_statements": 304,
+    "resolved_local_import_statements": 43,
+    "resolution_rate": 0.14144736842105263,
+    "directed_file_edges": 41,
+    "sample_edges": [
+      [
+        "facebookresearch_omnivore-hubconf.py",
+        "facebookresearch_omnivore-omnivore-models-__init__.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnimae-omni_mae_model.py",
+        "facebookresearch_omnivore-omnivision-models-vision_transformer.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-concat_dataset.py",
+        "facebookresearch_omnivore-omnivision-data-omni_dataset.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-path_dataset.py",
+        "facebookresearch_omnivore-omnivision-data-api.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-path_dataset.py",
+        "facebookresearch_omnivore-omnivision-utils-data.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-synthetic_dataset.py",
+        "facebookresearch_omnivore-omnivision-data-api.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-torch_dataset.py",
+        "facebookresearch_omnivore-omnivision-data-omni_dataset.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-transforms-basic.py",
+        "facebookresearch_omnivore-omnivision-data-transforms-pytorchvideo.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-transforms-cutmixup.py",
+        "facebookresearch_omnivore-omnivision-data-api.py"
+      ],
+      [
+        "facebookresearch_omnivore-omnivision-data-transforms-cutmixup.py",
+        "facebookresearch_omnivore-omnivision-utils-generic.py"
+      ]
+    ]
+  },
+  {
+    "repo": "google_lightweight_mmm",
+    "source_exists": true,
+    "corpus_files": 34,
+    "mapped_python_files": 34,
+    "import_statements": 245,
+    "resolved_local_import_statements": 49,
+    "resolution_rate": 0.2,
+    "directed_file_edges": 76,
+    "sample_edges": [
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept.py",
+        "google_lightweight_mmm-lightweight_mmm-core-__init__.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept.py",
+        "google_lightweight_mmm-lightweight_mmm-core-core_utils.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept.py",
+        "google_lightweight_mmm-lightweight_mmm-core-priors.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept_test.py",
+        "google_lightweight_mmm-lightweight_mmm-core-__init__.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept_test.py",
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept_test.py",
+        "google_lightweight_mmm-lightweight_mmm-core-core_utils.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-baseline-intercept_test.py",
+        "google_lightweight_mmm-lightweight_mmm-core-priors.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-core_utils_test.py",
+        "google_lightweight_mmm-lightweight_mmm-core-__init__.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-core_utils_test.py",
+        "google_lightweight_mmm-lightweight_mmm-core-core_utils.py"
+      ],
+      [
+        "google_lightweight_mmm-lightweight_mmm-core-time-seasonality.py",
+        "google_lightweight_mmm-lightweight_mmm-core-__init__.py"
+      ]
+    ]
+  },
+  {
+    "repo": "lucidrains_imagen-pytorch",
+    "source_exists": true,
+    "corpus_files": 14,
+    "mapped_python_files": 14,
+    "import_statements": 146,
+    "resolved_local_import_statements": 34,
+    "resolution_rate": 0.2328767123287671,
+    "directed_file_edges": 32,
+    "sample_edges": [
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-configs.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-elucidated_imagen.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-imagen_pytorch.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-imagen_video.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-trainer.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-utils.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-version.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-cli.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-__init__.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-cli.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-data.py"
+      ],
+      [
+        "lucidrains_imagen-pytorch-imagen_pytorch-cli.py",
+        "lucidrains_imagen-pytorch-imagen_pytorch-utils.py"
+      ]
+    ]
+  },
+  {
+    "repo": "maxhumber_redframes",
+    "source_exists": true,
+    "corpus_files": 48,
+    "mapped_python_files": 48,
+    "import_statements": 178,
+    "resolved_local_import_statements": 105,
+    "resolution_rate": 0.5898876404494382,
+    "directed_file_edges": 100,
+    "sample_edges": [
+      [
+        "maxhumber_redframes-redframes-checks.py",
+        "maxhumber_redframes-redframes-types.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-checks.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-types.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-__init__.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-accumulate.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-append.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-combine.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-cross.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-dedupe.py"
+      ],
+      [
+        "maxhumber_redframes-redframes-core.py",
+        "maxhumber_redframes-redframes-verbs-denix.py"
+      ]
+    ]
+  }
+]

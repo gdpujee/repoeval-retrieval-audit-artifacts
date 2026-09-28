@@ -1,0 +1,157 @@
+{
+  "budget": 4000,
+  "leakage": {
+    "blinded_pre_ranking/bm25": {
+      "n_exact": 0,
+      "n_normalized": 1,
+      "normalized_tasks": [
+        "google_lightweight_mmm/22"
+      ]
+    },
+    "blinded_pre_ranking/coimport": {
+      "n_exact": 0,
+      "n_normalized": 1,
+      "normalized_tasks": [
+        "google_lightweight_mmm/22"
+      ]
+    },
+    "blinded_pre_ranking/directed": {
+      "n_exact": 0,
+      "n_normalized": 1,
+      "normalized_tasks": [
+        "google_lightweight_mmm/22"
+      ]
+    },
+    "reported_post_selection/bm25": {
+      "n_exact": 0,
+      "n_normalized": 1,
+      "normalized_tasks": [
+        "google_lightweight_mmm/22"
+      ]
+    },
+    "reported_post_selection/coimport": {
+      "n_exact": 0,
+      "n_normalized": 1,
+      "normalized_tasks": [
+        "google_lightweight_mmm/22"
+      ]
+    },
+    "reported_post_selection/directed": {
+      "n_exact": 0,
+      "n_normalized": 1,
+      "normalized_tasks": [
+        "google_lightweight_mmm/22"
+      ]
+    }
+  },
+  "selected_set_difference": {
+    "bm25": {
+      "n_tasks": 341,
+      "same_set_different_packing": 0,
+      "selected_set_changed": 219
+    },
+    "coimport": {
+      "n_tasks": 341,
+      "same_set_different_packing": 0,
+      "selected_set_changed": 205
+    },
+    "directed": {
+      "n_tasks": 341,
+      "same_set_different_packing": 0,
+      "selected_set_changed": 191
+    }
+  },
+  "summary": {
+    "exact_hits_total": 0,
+    "normalized_hits_total": 6,
+    "normalized_tasks": [
+      "google_lightweight_mmm/22"
+    ]
+  },
+  "token_accounting": {
+    "blinded_pre_ranking/bm25": {
+      "max_reduction_tokens": 0,
+      "mean_reduction_tokens": 0.0,
+      "model_visible_mean_tokens": 3961.50146627566,
+      "model_visible_utilisation": 0.990375366568915,
+      "n_tasks_over_budget_after_redaction": 0,
+      "recorded_selection_mean_tokens": 3961.50146627566,
+      "recorded_utilisation": 0.990375366568915
+    },
+    "blinded_pre_ranking/coimport": {
+      "max_reduction_tokens": 0,
+      "mean_reduction_tokens": 0.0,
+      "model_visible_mean_tokens": 3930.448680351906,
+      "model_visible_utilisation": 0.9826121700879765,
+      "n_tasks_over_budget_after_redaction": 0,
+      "recorded_selection_mean_tokens": 3930.448680351906,
+      "recorded_utilisation": 0.9826121700879765
+    },
+    "blinded_pre_ranking/directed": {
+      "max_reduction_tokens": 0,
+      "mean_reduction_tokens": 0.0,
+      "model_visible_mean_tokens": 3959.859237536657,
+      "model_visible_utilisation": 0.9899648093841642,
+      "n_tasks_over_budget_after_redaction": 0,
+      "recorded_selection_mean_tokens": 3959.859237536657,
+      "recorded_utilisation": 0.9899648093841642
+    },
+    "reported_post_selection/bm25": {
+      "max_reduction_tokens": 561,
+      "mean_reduction_tokens": 84.86803519061584,
+      "model_visible_mean_tokens": 3878.8944281524928,
+      "model_visible_utilisation": 0.9697236070381232,
+      "n_tasks_over_budget_after_redaction": 0,
+      "recorded_selection_mean_tokens": 3963.7624633431087,
+      "recorded_utilisation": 0.9909406158357772
+    },
+    "reported_post_selection/coimport": {
+      "max_reduction_tokens": 561,
+      "mean_reduction_tokens": 84.43695014662757,
+      "model_visible_mean_tokens": 3841.3313782991204,
+      "model_visible_utilisation": 0.9603328445747801,
+      "n_tasks_over_budget_after_redaction": 0,
+      "recorded_selection_mean_tokens": 3925.768328445748,
+      "recorded_utilisation": 0.981442082111437
+    },
+    "reported_post_selection/directed": {
+      "max_reduction_tokens": 521,
+      "mean_reduction_tokens": 72.45161290322581,
+      "model_visible_mean_tokens": 3890.539589442815,
+      "model_visible_utilisation": 0.9726348973607039,
+      "n_tasks_over_budget_after_redaction": 0,
+      "recorded_selection_mean_tokens": 3962.991202346041,
+      "recorded_utilisation": 0.9907478005865102
+    }
+  },
+  "variants": {
+    "blinded_pre_ranking": {
+      "bm25": {
+        "mean_docs": 12.413489736070382,
+        "n_tasks": 341
+      },
+      "coimport": {
+        "mean_docs": 12.173020527859238,
+        "n_tasks": 341
+      },
+      "directed": {
+        "mean_docs": 12.387096774193548,
+        "n_tasks": 341
+      }
+    },
+    "reported_post_selection": {
+      "bm25": {
+        "mean_docs": 12.105571847507331,
+        "n_tasks": 341
+      },
+      "coimport": {
+        "mean_docs": 11.8475073313783,
+        "n_tasks": 341
+      },
+      "directed": {
+        "mean_docs": 12.173020527859238,
+        "n_tasks": 341
+      }
+    }
+  }
+}

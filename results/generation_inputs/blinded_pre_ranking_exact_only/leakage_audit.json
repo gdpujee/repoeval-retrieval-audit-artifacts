@@ -1,0 +1,17 @@
+{
+  "normalized_hits": [
+    [
+      "google_lightweight_mmm/22",
+      "bm25"
+    ],
+    [
+      "google_lightweight_mmm/22",
+      "coimport"
+    ],
+    [
+      "google_lightweight_mmm/22",
+      "directed"
+    ]
+  ],
+  "n_exact": 0
+}

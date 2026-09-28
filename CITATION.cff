@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and this tagged artifact release."
+title: "RepoEval retrieval audit: reproducibility artifacts"
+version: "1.0.0"
+type: software
+authors:
+  - family-names: He
+    given-names: Danhua
+    orcid: "https://orcid.org/0009-0007-0238-2494"
+  - family-names: Li
+    given-names: Qiang
+    orcid: "https://orcid.org/0009-0003-6404-335X"
+repository-code: "https://github.com/gdpujee/repoeval-retrieval-audit-artifacts"

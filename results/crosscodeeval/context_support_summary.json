@@ -1,0 +1,67 @@
+{
+  "source": "amazon-science/cceval commit 40c68d2",
+  "scope": "Official pre-generated Python contexts; retrievers were not rerun",
+  "metric_note": "Identifier support is a retrieval-context diagnostic, not generation correctness",
+  "results": [
+    {
+      "method": "bm25",
+      "tasks": 2665,
+      "repositories": 471,
+      "mean_context_tokens": 635.5302063789869,
+      "query_weighted_identifier_recall": 0.43231049915161696,
+      "repository_macro_identifier_recall": 0.4324993476617232,
+      "all_identifiers_supported_rate": 0.14296435272045027,
+      "exact_groundtruth_in_context_rate": 0.000375234521575985
+    },
+    {
+      "method": "unixcoder",
+      "tasks": 2665,
+      "repositories": 471,
+      "mean_context_tokens": 653.9636022514071,
+      "query_weighted_identifier_recall": 0.41078095179235696,
+      "repository_macro_identifier_recall": 0.4113276173153573,
+      "all_identifiers_supported_rate": 0.11857410881801125,
+      "exact_groundtruth_in_context_rate": 0
+    },
+    {
+      "method": "openai_embedding",
+      "tasks": 2665,
+      "repositories": 471,
+      "mean_context_tokens": 638.4168855534709,
+      "query_weighted_identifier_recall": 0.43715022373805823,
+      "repository_macro_identifier_recall": 0.44205577989940126,
+      "all_identifiers_supported_rate": 0.14409005628517824,
+      "exact_groundtruth_in_context_rate": 0
+    },
+    {
+      "method": "oracle_bm25",
+      "tasks": 2665,
+      "repositories": 471,
+      "mean_context_tokens": 693.9459662288931,
+      "query_weighted_identifier_recall": 0.5763639044650203,
+      "repository_macro_identifier_recall": 0.5904523320776657,
+      "all_identifiers_supported_rate": 0.2619136960600375,
+      "exact_groundtruth_in_context_rate": 0.00075046904315197
+    },
+    {
+      "method": "oracle_unixcoder",
+      "tasks": 2665,
+      "repositories": 471,
+      "mean_context_tokens": 705.5058161350844,
+      "query_weighted_identifier_recall": 0.5010128505837995,
+      "repository_macro_identifier_recall": 0.5086832660902122,
+      "all_identifiers_supported_rate": 0.1898686679174484,
+      "exact_groundtruth_in_context_rate": 0.000375234521575985
+    },
+    {
+      "method": "oracle_openai_embedding",
+      "tasks": 2665,
+      "repositories": 471,
+      "mean_context_tokens": 701.0311444652908,
+      "query_weighted_identifier_recall": 0.5377115950439738,
+      "repository_macro_identifier_recall": 0.5498071680292282,
+      "all_identifiers_supported_rate": 0.23114446529080676,
+      "exact_groundtruth_in_context_rate": 0.00075046904315197
+    }
+  ]
+}

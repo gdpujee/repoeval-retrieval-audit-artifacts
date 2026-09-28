@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+.venv*/
+__pycache__/
+*.pyc
+external/
+scripts/code-rag-bench/
+results/execution/ref/
+results/execution/work-*/
+results/execution/v8/work-*/
+results/execution/v9/work-*/
+logs/

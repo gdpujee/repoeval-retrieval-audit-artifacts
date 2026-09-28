@@ -1,0 +1,19 @@
+{
+ "key": [
+  "deepmind_tracr/126",
+  "directed",
+  "muse-spark-1.3-contributor"
+ ],
+ "dropped": {
+  "task_id": "deepmind_tracr/126",
+  "strategy": "directed",
+  "model": "muse-spark-1.3-contributor",
+  "files": {
+   "tracr/transformer/compressed_model_test.py": 2
+  },
+  "success": false,
+  "duration_s": 0.4
+ },
+ "reason": "failed generation call (bad status: incomplete, empty completion); successful retry evaluated in eval_muse_w7.jsonl:128, consistent with score_downstream success-wins rule",
+ "kept": "eval_muse_w7.jsonl:128 success=True"
+}

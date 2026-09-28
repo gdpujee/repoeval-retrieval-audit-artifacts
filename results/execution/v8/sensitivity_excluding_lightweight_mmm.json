@@ -1,0 +1,110 @@
+{
+  "analysis": "V8 execution sensitivity excluding the partially evaluable repository",
+  "excluded_repo": "repoeval__google_lightweight_mmm",
+  "retained_repositories": [
+    "repoeval__deepmind_tracr",
+    "repoeval__facebookresearch_omnivore",
+    "repoeval__lucidrains_imagen-pytorch",
+    "repoeval__maxhumber_redframes"
+  ],
+  "bootstrap": {
+    "method": "10,000-iteration paired two-stage repository/query bootstrap",
+    "seed": 20260913,
+    "interval": "percentile 95%",
+    "note": "Exploratory with four repository clusters; uses saved execution rows only."
+  },
+  "models": {
+    "deepseek-v4.1-flash": {
+      "evaluable_tasks": 277,
+      "strategies": {
+        "bm25": {
+          "pass_rate": 0.33013160934342695,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.2876712328767123,
+            "repoeval__facebookresearch_omnivore": 0.2727272727272727,
+            "repoeval__lucidrains_imagen-pytorch": 0.40298507462686567,
+            "repoeval__maxhumber_redframes": 0.35714285714285715
+          }
+        },
+        "coimport": {
+          "pass_rate": 0.3578586784986294,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.3150684931506849,
+            "repoeval__facebookresearch_omnivore": 0.2727272727272727,
+            "repoeval__lucidrains_imagen-pytorch": 0.4626865671641791,
+            "repoeval__maxhumber_redframes": 0.38095238095238093
+          }
+        },
+        "directed": {
+          "pass_rate": 0.19038336603762895,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.2534246575342466,
+            "repoeval__facebookresearch_omnivore": 0.09090909090909091,
+            "repoeval__lucidrains_imagen-pytorch": 0.1791044776119403,
+            "repoeval__maxhumber_redframes": 0.23809523809523808
+          }
+        }
+      },
+      "coimport-bm25": {
+        "macro_diff": 0.027727069155202455,
+        "ci95": [
+          -0.02309879175550817,
+          0.08617869556327948
+        ]
+      },
+      "directed-bm25": {
+        "macro_diff": -0.139748243305798,
+        "ci95": [
+          -0.2476012793176972,
+          -0.03767123287671233
+        ]
+      }
+    },
+    "muse-spark-1.3-contributor": {
+      "evaluable_tasks": 277,
+      "strategies": {
+        "bm25": {
+          "pass_rate": 0.6234657967943594,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.5205479452054794,
+            "repoeval__facebookresearch_omnivore": 0.5454545454545454,
+            "repoeval__lucidrains_imagen-pytorch": 0.7611940298507462,
+            "repoeval__maxhumber_redframes": 0.6666666666666666
+          }
+        },
+        "coimport": {
+          "pass_rate": 0.6295090107193971,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.6438356164383562,
+            "repoeval__facebookresearch_omnivore": 0.5,
+            "repoeval__lucidrains_imagen-pytorch": 0.7313432835820896,
+            "repoeval__maxhumber_redframes": 0.6428571428571429
+          }
+        },
+        "directed": {
+          "pass_rate": 0.6548455463299054,
+          "per_repo": {
+            "repoeval__deepmind_tracr": 0.678082191780822,
+            "repoeval__facebookresearch_omnivore": 0.5909090909090909,
+            "repoeval__lucidrains_imagen-pytorch": 0.7313432835820896,
+            "repoeval__maxhumber_redframes": 0.6190476190476191
+          }
+        }
+      },
+      "coimport-bm25": {
+        "macro_diff": 0.006043213925037705,
+        "ci95": [
+          -0.06394165535956581,
+          0.08904109589041095
+        ]
+      },
+      "directed-bm25": {
+        "macro_diff": 0.03137974953554601,
+        "ci95": [
+          -0.055881307746979386,
+          0.12422166874221668
+        ]
+      }
+    }
+  }
+}

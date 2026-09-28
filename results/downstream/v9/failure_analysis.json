@@ -1,0 +1,214 @@
+{
+  "deepseek-v4.1-flash": {
+    "n": 341,
+    "per_repo_em": {
+      "repoeval__deepmind_tracr": {
+        "bm25": 0.0685,
+        "coimport": 0.0548,
+        "directed": 0.0685
+      },
+      "repoeval__facebookresearch_omnivore": {
+        "bm25": 0.0,
+        "coimport": 0.0455,
+        "directed": 0.0
+      },
+      "repoeval__google_lightweight_mmm": {
+        "bm25": 0.0469,
+        "coimport": 0.0469,
+        "directed": 0.0469
+      },
+      "repoeval__lucidrains_imagen-pytorch": {
+        "bm25": 0.0896,
+        "coimport": 0.0896,
+        "directed": 0.0597
+      },
+      "repoeval__maxhumber_redframes": {
+        "bm25": 0.0714,
+        "coimport": 0.0952,
+        "directed": 0.119
+      }
+    },
+    "bm25_ok_directed_fail": 9,
+    "directed_ok_bm25_fail": 9,
+    "both_ok": 13,
+    "both_fail": 310,
+    "discordant_samples": [
+      {
+        "task_id": "deepmind_tracr/10",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.925
+      },
+      {
+        "task_id": "deepmind_tracr/53",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.972
+      },
+      {
+        "task_id": "deepmind_tracr/57",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.996
+      },
+      {
+        "task_id": "deepmind_tracr/70",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.976
+      },
+      {
+        "task_id": "deepmind_tracr/72",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.911
+      },
+      {
+        "task_id": "deepmind_tracr/17",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.951,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "deepmind_tracr/23",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.991,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "deepmind_tracr/8",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.969,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "deepmind_tracr/83",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.996,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "deepmind_tracr/95",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.517,
+        "directed_es": 1.0
+      }
+    ]
+  },
+  "muse-spark-1.3-contributor": {
+    "n": 341,
+    "per_repo_em": {
+      "repoeval__deepmind_tracr": {
+        "bm25": 0.2123,
+        "coimport": 0.2397,
+        "directed": 0.1849
+      },
+      "repoeval__facebookresearch_omnivore": {
+        "bm25": 0.1818,
+        "coimport": 0.2273,
+        "directed": 0.1818
+      },
+      "repoeval__google_lightweight_mmm": {
+        "bm25": 0.1562,
+        "coimport": 0.1406,
+        "directed": 0.1562
+      },
+      "repoeval__lucidrains_imagen-pytorch": {
+        "bm25": 0.3881,
+        "coimport": 0.3731,
+        "directed": 0.3134
+      },
+      "repoeval__maxhumber_redframes": {
+        "bm25": 0.3095,
+        "coimport": 0.3333,
+        "directed": 0.3333
+      }
+    },
+    "bm25_ok_directed_fail": 18,
+    "directed_ok_bm25_fail": 10,
+    "both_ok": 66,
+    "both_fail": 247,
+    "discordant_samples": [
+      {
+        "task_id": "deepmind_tracr/4",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.192
+      },
+      {
+        "task_id": "deepmind_tracr/46",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.571
+      },
+      {
+        "task_id": "deepmind_tracr/70",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.953
+      },
+      {
+        "task_id": "deepmind_tracr/81",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.965
+      },
+      {
+        "task_id": "deepmind_tracr/90",
+        "bm25_em": true,
+        "directed_em": false,
+        "bm25_es": 1.0,
+        "directed_es": 0.563
+      },
+      {
+        "task_id": "deepmind_tracr/122",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.939,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "deepmind_tracr/53",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.706,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "lucidrains_imagen-pytorch/12",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.7,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "lucidrains_imagen-pytorch/19",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.74,
+        "directed_es": 1.0
+      },
+      {
+        "task_id": "lucidrains_imagen-pytorch/22",
+        "bm25_em": false,
+        "directed_em": true,
+        "bm25_es": 0.803,
+        "directed_es": 1.0
+      }
+    ]
+  }
+}

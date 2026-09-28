@@ -1,0 +1,28 @@
+{
+  "comparison": "gcc_coimport - bm25",
+  "budget": 4000,
+  "n_queries": 341,
+  "n_repository_clusters": 5,
+  "query_weighted_mean_difference": -0.00317141569513486,
+  "sd_difference": 0.017896073334159605,
+  "cohens_dz": -0.17721293581655906,
+  "descriptive_95pct_ci": [
+    -0.005070904037807477,
+    -0.0012719273524622432
+  ],
+  "cluster_bootstrap_macro_mean_difference": -0.0022625481265976413,
+  "cluster_bootstrap_95pct_ci": [
+    -0.004614623689289643,
+    -0.00024038461538461524
+  ],
+  "cluster_bootstrap_90pct_ci": [
+    -0.004205712960749223,
+    -0.0005291005291005294
+  ],
+  "exploratory_equivalence_margin": [
+    -0.01,
+    0.01
+  ],
+  "exploratory_equivalence_supported": true,
+  "interpretation": "The two-stage bootstrap resamples repositories and then queries. With only five repository clusters, inference and the post-hoc +/-0.01 equivalence margin are exploratory, not confirmatory."
+}

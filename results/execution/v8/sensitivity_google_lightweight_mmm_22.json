@@ -1,0 +1,93 @@
+{
+  "excluded_task": "google_lightweight_mmm/22",
+  "kind": "execution",
+  "indir": "results/execution/v8",
+  "models": {
+    "deepseek-v4.1-flash": {
+      "task_present": true,
+      "with_task": {
+        "coimport-bm25": {
+          "macro_em_diff": 0.03127,
+          "ci95": [
+            -0.02071,
+            0.08701
+          ],
+          "excludes_zero": false,
+          "n_tasks": 299
+        },
+        "directed-bm25": {
+          "macro_em_diff": -0.12998,
+          "ci95": [
+            -0.2243,
+            -0.04493
+          ],
+          "excludes_zero": true,
+          "n_tasks": 299
+        }
+      },
+      "without_task": {
+        "coimport-bm25": {
+          "macro_em_diff": 0.03171,
+          "ci95": [
+            -0.02042,
+            0.08941
+          ],
+          "excludes_zero": false,
+          "n_tasks": 298
+        },
+        "directed-bm25": {
+          "macro_em_diff": -0.13085,
+          "ci95": [
+            -0.22189,
+            -0.04488
+          ],
+          "excludes_zero": true,
+          "n_tasks": 298
+        }
+      }
+    },
+    "muse-spark-1.3-contributor": {
+      "task_present": true,
+      "with_task": {
+        "coimport-bm25": {
+          "macro_em_diff": 0.00483,
+          "ci95": [
+            -0.05712,
+            0.07469
+          ],
+          "excludes_zero": false,
+          "n_tasks": 299
+        },
+        "directed-bm25": {
+          "macro_em_diff": 0.00692,
+          "ci95": [
+            -0.08487,
+            0.09863
+          ],
+          "excludes_zero": false,
+          "n_tasks": 299
+        }
+      },
+      "without_task": {
+        "coimport-bm25": {
+          "macro_em_diff": 0.00483,
+          "ci95": [
+            -0.05692,
+            0.07609
+          ],
+          "excludes_zero": false,
+          "n_tasks": 298
+        },
+        "directed-bm25": {
+          "macro_em_diff": 0.00606,
+          "ci95": [
+            -0.08699,
+            0.09953
+          ],
+          "excludes_zero": false,
+          "n_tasks": 298
+        }
+      }
+    }
+  }
+}

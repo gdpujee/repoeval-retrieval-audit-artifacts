@@ -1,0 +1,42 @@
+[
+  {
+    "repo": "repoeval__deepmind_tracr",
+    "documents": 917,
+    "queries": 146,
+    "relevant_pairs": 2397,
+    "corpus_tokens": 373834,
+    "coimport_edges": 24960
+  },
+  {
+    "repo": "repoeval__facebookresearch_omnivore",
+    "documents": 1191,
+    "queries": 22,
+    "relevant_pairs": 299,
+    "corpus_tokens": 457691,
+    "coimport_edges": 18013
+  },
+  {
+    "repo": "repoeval__google_lightweight_mmm",
+    "documents": 973,
+    "queries": 64,
+    "relevant_pairs": 991,
+    "corpus_tokens": 422652,
+    "coimport_edges": 11461
+  },
+  {
+    "repo": "repoeval__lucidrains_imagen-pytorch",
+    "documents": 739,
+    "queries": 67,
+    "relevant_pairs": 1261,
+    "corpus_tokens": 297513,
+    "coimport_edges": 1104
+  },
+  {
+    "repo": "repoeval__maxhumber_redframes",
+    "documents": 378,
+    "queries": 42,
+    "relevant_pairs": 273,
+    "corpus_tokens": 136862,
+    "coimport_edges": 2201
+  }
+]

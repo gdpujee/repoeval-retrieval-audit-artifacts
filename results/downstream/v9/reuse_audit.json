@@ -1,0 +1,124 @@
+{
+  "active_variant": "blinded_pre_ranking",
+  "changed_prompt_key_count": 6,
+  "changed_prompt_keys": [
+    {
+      "new_sha256": "41787a3b5ec07932ba848fb69859a9171cfeb3795e653420653b81b1e79fc76a",
+      "old_sha256": "6f686d139d8b621e2c990683f448d029010f3b92772c608a390ded1809607455",
+      "strategy": "bm25",
+      "task_id": "google_lightweight_mmm/22"
+    },
+    {
+      "new_sha256": "41787a3b5ec07932ba848fb69859a9171cfeb3795e653420653b81b1e79fc76a",
+      "old_sha256": "6f686d139d8b621e2c990683f448d029010f3b92772c608a390ded1809607455",
+      "strategy": "coimport",
+      "task_id": "google_lightweight_mmm/22"
+    },
+    {
+      "new_sha256": "41787a3b5ec07932ba848fb69859a9171cfeb3795e653420653b81b1e79fc76a",
+      "old_sha256": "1b71a45b43968cddfb3aac9a1b4ff19f9986fd11b9639632d63f3c4e83a0f99f",
+      "strategy": "directed",
+      "task_id": "google_lightweight_mmm/22"
+    },
+    {
+      "new_sha256": "1eb02c78fc6343122bde2e0d19991c005d4cb702e468189b4778edbbb543767e",
+      "old_sha256": "ff6978e0031b8c798e05b535c37071ed19ed5d50e8118c46306c65589f023139",
+      "strategy": "bm25",
+      "task_id": "google_lightweight_mmm/56"
+    },
+    {
+      "new_sha256": "1eb02c78fc6343122bde2e0d19991c005d4cb702e468189b4778edbbb543767e",
+      "old_sha256": "ff6978e0031b8c798e05b535c37071ed19ed5d50e8118c46306c65589f023139",
+      "strategy": "coimport",
+      "task_id": "google_lightweight_mmm/56"
+    },
+    {
+      "new_sha256": "1eb02c78fc6343122bde2e0d19991c005d4cb702e468189b4778edbbb543767e",
+      "old_sha256": "ff6978e0031b8c798e05b535c37071ed19ed5d50e8118c46306c65589f023139",
+      "strategy": "directed",
+      "task_id": "google_lightweight_mmm/56"
+    }
+  ],
+  "execution": {
+    "deepseek": {
+      "matches_reused_generation_keys": true,
+      "reused_by_strategy": {
+        "bm25": 339,
+        "coimport": 234,
+        "directed": 0
+      },
+      "reused_rows": 573
+    },
+    "muse": {
+      "matches_reused_generation_keys": true,
+      "reused_by_strategy": {
+        "bm25": 287,
+        "coimport": 0,
+        "directed": 0
+      },
+      "reused_rows": 287
+    }
+  },
+  "models": {
+    "deepseek": {
+      "invalidated_keys": [
+        {
+          "strategy": "bm25",
+          "task_id": "google_lightweight_mmm/22"
+        },
+        {
+          "strategy": "coimport",
+          "task_id": "google_lightweight_mmm/22"
+        },
+        {
+          "strategy": "bm25",
+          "task_id": "google_lightweight_mmm/56"
+        },
+        {
+          "strategy": "coimport",
+          "task_id": "google_lightweight_mmm/56"
+        }
+      ],
+      "missing_current_matrix_rows": 450,
+      "model_id": "deepseek-v4.1-flash",
+      "prompt_changed_successes_excluded": 4,
+      "reused_by_strategy": {
+        "bm25": 339,
+        "coimport": 234,
+        "directed": 0
+      },
+      "reused_successes": 573,
+      "source_errors_excluded": 24,
+      "source_rows": 601,
+      "source_successes": 577
+    },
+    "muse": {
+      "invalidated_keys": [
+        {
+          "strategy": "bm25",
+          "task_id": "google_lightweight_mmm/22"
+        },
+        {
+          "strategy": "bm25",
+          "task_id": "google_lightweight_mmm/56"
+        }
+      ],
+      "missing_current_matrix_rows": 736,
+      "model_id": "muse-spark-1.3-contributor",
+      "prompt_changed_successes_excluded": 2,
+      "reused_by_strategy": {
+        "bm25": 287,
+        "coimport": 0,
+        "directed": 0
+      },
+      "reused_successes": 287,
+      "source_errors_excluded": 24,
+      "source_rows": 313,
+      "source_successes": 289
+    }
+  },
+  "new_input_rows": 1023,
+  "old_input_rows": 1023,
+  "reuse_rule": "successful rows only when effective user-prompt SHA-256 matches",
+  "source_variant": "blinded_pre_ranking_exact_only"
+}

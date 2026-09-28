@@ -1,0 +1,22 @@
+{
+  "rows": 15990,
+  "methods": [
+    "bm25",
+    "openai_embedding",
+    "oracle_bm25",
+    "oracle_openai_embedding",
+    "oracle_unixcoder",
+    "unixcoder"
+  ],
+  "tasks_per_method": {
+    "bm25": 2665,
+    "unixcoder": 2665,
+    "openai_embedding": 2665,
+    "oracle_bm25": 2665,
+    "oracle_unixcoder": 2665,
+    "oracle_openai_embedding": 2665
+  },
+  "aligned_task_sets": true,
+  "invalid_identifier_recall_rows": 0,
+  "passed": true
+}

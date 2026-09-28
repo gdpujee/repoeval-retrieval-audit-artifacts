@@ -1,0 +1,247 @@
+{
+  "deepmind_tracr": {
+    "tracr/compiler/assemble_test.py": {
+      "returncode": 0,
+      "duration_s": 3.9,
+      "tail": "...                                                                      [100%]\n3 passed in 3.32s\n"
+    },
+    "tracr/compiler/basis_inference_test.py": {
+      "returncode": 0,
+      "duration_s": 0.7,
+      "tail": ".......                                                                  [100%]\n7 passed in 0.38s\n"
+    },
+    "tracr/compiler/craft_graph_to_model_test.py": {
+      "returncode": 0,
+      "duration_s": 0.7,
+      "tail": "...                                                                      [100%]\n3 passed in 0.37s\n"
+    },
+    "tracr/compiler/expr_to_craft_graph_test.py": {
+      "returncode": 0,
+      "duration_s": 0.7,
+      "tail": ".......                                                                  [100%]\n7 passed in 0.37s\n"
+    },
+    "tracr/compiler/lib_test.py": {
+      "returncode": 0,
+      "duration_s": 0.7,
+      "tail": "......................................................                   [100%]\n54 passed in 0.37s\n"
+    },
+    "tracr/compiler/rasp_to_craft_integration_test.py": {
+      "returncode": 0,
+      "duration_s": 2.7,
+      "tail": "...............................................x                         [100%]\n47 passed, 1 xfailed in 2.36s\n"
+    },
+    "tracr/compiler/rasp_to_graph_test.py": {
+      "returncode": 0,
+      "duration_s": 0.7,
+      "tail": "...                                                                      [100%]\n3 passed in 0.36s\n"
+    },
+    "tracr/compiler/rasp_to_transformer_integration_test.py": {
+      "returncode": 0,
+      "duration_s": 39.0,
+      "tail": ".................................................................. [ 97%]\n..                                                                 [100%]\n68 passed, 12 subtests passed in 37.94s\n"
+    },
+    "tracr/compiler/test_cases.py": {
+      "returncode": 5,
+      "duration_s": 1.1,
+      "tail": "\nno tests ran in 0.64s\n"
+    },
+    "tracr/craft/bases_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": ".........                                                                [100%]\n9 passed in 0.06s\n"
+    },
+    "tracr/craft/chamber/categorical_attn_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": "..............                                                           [100%]\n14 passed in 0.09s\n"
+    },
+    "tracr/craft/chamber/categorical_mlp_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": ".............                                                            [100%]\n13 passed in 0.07s\n"
+    },
+    "tracr/craft/chamber/numerical_mlp_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": "...................                                                      [100%]\n19 passed in 0.07s\n"
+    },
+    "tracr/craft/chamber/selector_width_test.py": {
+      "returncode": 0,
+      "duration_s": 0.4,
+      "tail": "........................                                                 [100%]\n24 passed in 0.15s\n"
+    },
+    "tracr/craft/transformers_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": ".......                                                                  [100%]\n7 passed in 0.05s\n"
+    },
+    "tracr/craft/vectorspace_fns_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": "...........                                                              [100%]\n11 passed in 0.05s\n"
+    },
+    "tracr/rasp/causal_eval_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": "..                                                                       [100%]\n2 passed in 0.05s\n"
+    },
+    "tracr/rasp/rasp_test.py": {
+      "returncode": 0,
+      "duration_s": 1.9,
+      "tail": "....................................................................... [ 94%]\n........................................................................ [ 95%]\n........................................................................ [ 96%]\n........................................................................ [ 98%]\n........................................................................ [ 99%]\n.........................                                                [100%]\n5353 passed in 1.61s\n"
+    },
+    "tracr/transformer/compressed_model_test.py": {
+      "returncode": 0,
+      "duration_s": 4.3,
+      "tail": "..............                                                           [100%]\n14 passed in 3.95s\n"
+    },
+    "tracr/transformer/encoder_test.py": {
+      "returncode": 0,
+      "duration_s": 0.3,
+      "tail": "............                                                             [100%]\n12 passed in 0.05s\n"
+    },
+    "tracr/transformer/model_test.py": {
+      "returncode": 0,
+      "duration_s": 3.0,
+      "tail": ".......                                                                  [100%]\n7 passed in 2.59s\n"
+    },
+    "tracr/utils/errors_test.py": {
+      "returncode": 0,
+      "duration_s": 0.2,
+      "tail": "..                                                                       [100%]\n2 passed in 0.02s\n"
+    }
+  },
+  "facebookresearch_omnivore": {
+    "tests/test_checkpoint_loading.py": {
+      "returncode": 0,
+      "duration_s": 5.5,
+      "tail": "......                                                                   [100%]\n6 passed in 4.93s\n"
+    },
+    "tests/test_model_wrappers.py": {
+      "returncode": 0,
+      "duration_s": 1.6,
+      "tail": "....                                                                     [100%]\n4 passed in 1.03s\n"
+    },
+    "tests/test_scheduler.py": {
+      "returncode": 0,
+      "duration_s": 1.8,
+      "tail": "..................                                                       [100%]\n18 passed in 1.24s\n"
+    }
+  },
+  "google_lightweight_mmm": {
+    "lightweight_mmm/core/baseline/intercept_test.py": {
+      "returncode": 0,
+      "duration_s": 3.4,
+      "tail": "....                                                                     [100%]\n4 passed in 3.02s\n"
+    },
+    "lightweight_mmm/core/time/seasonality_test.py": {
+      "returncode": 0,
+      "duration_s": 6.4,
+      "tail": "...........                                                              [100%]\n11 passed in 5.97s\n"
+    },
+    "lightweight_mmm/core/time/trend_test.py": {
+      "returncode": 1,
+      "duration_s": 10.3,
+      "tail": "ce_slope,\n      )\n    \n>     np.testing.assert_array_equal(x=dynamic_trend_values,\n                                    y=dynamic_trend_expected_value)\nE     TypeError: assert_array_equal() got an unexpected keyword argument 'x'\n\nlightweight_mmm/core/time/trend_test.py:189: TypeError\n=========================== short test summary info ============================\nFAILED lightweight_mmm/core/time/trend_test.py::TrendTest::test_core_dynamic_trend_produces_correct_value\n1 failed, 18 passed in 9.52s\n"
+    },
+    "lightweight_mmm/core/transformations/lagging_test.py": {
+      "returncode": 1,
+      "duration_s": 6.6,
+      "tail": "equal(x=generated_output, y=data)\nE     TypeError: assert_array_equal() got an unexpected keyword argument 'x'\n\nlightweight_mmm/core/transformations/lagging_test.py:232: TypeError\n=========================== short test summary info ============================\nFAILED lightweight_mmm/core/transformations/lagging_test.py::LaggingTest::test_adstock_zeros_stay_zeros\nFAILED lightweight_mmm/core/transformations/lagging_test.py::LaggingTest::test_carryover_zeros_stay_zeros\n2 failed, 11 passed in 6.08s\n"
+    },
+    "lightweight_mmm/core/transformations/saturation_test.py": {
+      "returncode": 1,
+      "duration_s": 2.2,
+      "tail": "D lightweight_mmm/core/transformations/saturation_test.py::SaturationTest::test_hill_custom_priors_are_taken_correctly_slope\nFAILED lightweight_mmm/core/transformations/saturation_test.py::SaturationTest::test_hill_produces_correct_shape_geo\nFAILED lightweight_mmm/core/transformations/saturation_test.py::SaturationTest::test_hill_produces_correct_shape_national\nFAILED lightweight_mmm/core/transformations/saturation_test.py::SaturationTest::test_hill_zeros_stay_zeros\n11 failed, 1 passed in 1.63s\n"
+    },
+    "lightweight_mmm/lightweight_mmm_test.py": {
+      "returncode": 2,
+      "duration_s": 3.2,
+      "tail": "odule>\n    from lightweight_mmm import lightweight_mmm\nlightweight_mmm/lightweight_mmm.py:55: in <module>\n    from lightweight_mmm import utils\nlightweight_mmm/utils.py:29: in <module>\n    from tensorflow.io import gfile\nE   ModuleNotFoundError: No module named 'tensorflow'\n=========================== short test summary info ============================\nERROR lightweight_mmm/lightweight_mmm_test.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 2.84s\n"
+    },
+    "lightweight_mmm/media_transforms_test.py": {
+      "returncode": 1,
+      "duration_s": 1.1,
+      "tail": "ED lightweight_mmm/media_transforms_test.py::MediaTransformsTest::test_hill_produces_correct_shape_2d_three_channels\nFAILED lightweight_mmm/media_transforms_test.py::MediaTransformsTest::test_hill_produces_correct_shape_3d_10channels_5geos\nFAILED lightweight_mmm/media_transforms_test.py::MediaTransformsTest::test_hill_produces_correct_shape_3d_8channels_10geos\nFAILED lightweight_mmm/media_transforms_test.py::MediaTransformsTest::test_hill_zeros_stay_zeros\n10 failed, 8 passed, 1 warning in 0.80s\n"
+    },
+    "lightweight_mmm/models_test.py": {
+      "returncode": 1,
+      "duration_s": 5.3,
+      "tail": "m/models_test.py::ModelsTest::test_transform_hill_adstock_produces_correct_output_shape_geo_shape_2\nFAILED lightweight_mmm/models_test.py::ModelsTest::test_transform_hill_adstock_produces_correct_output_shape_one_channel\nFAILED lightweight_mmm/models_test.py::ModelsTest::test_transform_hill_adstock_produces_correct_output_shape_one_channel_one_row\nFAILED lightweight_mmm/models_test.py::ModelsTest::test_transform_hill_adstock_produces_correct_output_shape_same_channels_as_rows\n38 failed in 4.92s\n"
+    },
+    "lightweight_mmm/optimize_media_test.py": {
+      "returncode": 2,
+      "duration_s": 1.8,
+      "tail": "module>\n    from lightweight_mmm import lightweight_mmm\nlightweight_mmm/lightweight_mmm.py:55: in <module>\n    from lightweight_mmm import utils\nlightweight_mmm/utils.py:29: in <module>\n    from tensorflow.io import gfile\nE   ModuleNotFoundError: No module named 'tensorflow'\n=========================== short test summary info ============================\nERROR lightweight_mmm/optimize_media_test.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 1.38s\n"
+    },
+    "lightweight_mmm/plot_test.py": {
+      "returncode": 2,
+      "duration_s": 2.3,
+      "tail": "y:28: in <module>\n    from lightweight_mmm import lightweight_mmm\nlightweight_mmm/lightweight_mmm.py:55: in <module>\n    from lightweight_mmm import utils\nlightweight_mmm/utils.py:29: in <module>\n    from tensorflow.io import gfile\nE   ModuleNotFoundError: No module named 'tensorflow'\n=========================== short test summary info ============================\nERROR lightweight_mmm/plot_test.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 1.79s\n"
+    },
+    "lightweight_mmm/preprocessing_test.py": {
+      "returncode": 1,
+      "duration_s": 3.3,
+      "tail": "sing_test.py::PreprocessingTest::test_compute_vifs_returns_expected_values_geo_data\nFAILED lightweight_mmm/preprocessing_test.py::PreprocessingTest::test_compute_vifs_returns_expected_values_national_data\nFAILED lightweight_mmm/preprocessing_test.py::PreprocessingTest::test_extreme_values_for_compute_vifs\nFAILED lightweight_mmm/preprocessing_test.py::PreprocessingTest::test_fit_transform_works_with_operations_in_three_dimensions_min_multiply_mean_divide\n4 failed, 78 passed, 16 warnings in 2.75s\n"
+    },
+    "lightweight_mmm/utils_test.py": {
+      "returncode": 2,
+      "duration_s": 1.8,
+      "tail": ":25: in <module>\n    from lightweight_mmm import lightweight_mmm\nlightweight_mmm/lightweight_mmm.py:55: in <module>\n    from lightweight_mmm import utils\nlightweight_mmm/utils.py:29: in <module>\n    from tensorflow.io import gfile\nE   ModuleNotFoundError: No module named 'tensorflow'\n=========================== short test summary info ============================\nERROR lightweight_mmm/utils_test.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 1.37s\n"
+    }
+  },
+  "lucidrains_imagen-pytorch": {
+    "imagen_pytorch/test/test_trainer.py": {
+      "returncode": 0,
+      "duration_s": 12.4,
+      "tail": "est_trainer.py::test_trainer_instantiation\nimagen_pytorch/test/test_trainer.py::test_trainer_step\n  ./results/execution/ref/lucidrains_imagen-pytorch/imagen_pytorch/trainer.py:359: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n    scaler = GradScaler(enabled = grad_scaler_enabled)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 6 warnings in 11.14s\n"
+    }
+  },
+  "maxhumber_redframes": {
+    "tests/test_deprecations.py": {
+      "returncode": 0,
+      "duration_s": 0.5,
+      "tail": "..                                                                       [100%]\n2 passed in 0.27s\n"
+    },
+    "tests/test_docstrings.py": {
+      "returncode": 1,
+      "duration_s": 0.6,
+      "tail": "rames/redframes/verbs/rollup.py:24: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n    df = df.fillna(method=\"bfill\")  # type: ignore\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nFAILED tests/test_docstrings.py::TestDocstrings::test_memory - AssertionError...\n1 failed, 34 passed, 17 warnings in 0.31s\n"
+    },
+    "tests/test_dupe_columns.py": {
+      "returncode": 0,
+      "duration_s": 0.5,
+      "tail": "=== warnings summary ===============================\ntests/test_dupe_columns.py::TestDupeColumns::test_rollup_group_existing_column\n  ./results/execution/ref/maxhumber_redframes/redframes/verbs/rollup.py:13: FutureWarning: DataFrameGroupBy.grouper is deprecated and will be removed in a future version of pandas.\n    groups = set(df.grouper.names)  # type: ignore\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n19 passed, 1 warning in 0.24s\n"
+    },
+    "tests/test_index.py": {
+      "returncode": 0,
+      "duration_s": 0.4,
+      "tail": "ad.\n    df = df.fillna(method=\"ffill\")  # type: ignore\n\ntests/test_index.py::TestIndex::test_rollup\n  ./results/execution/ref/maxhumber_redframes/redframes/verbs/rollup.py:24: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n    df = df.fillna(method=\"bfill\")  # type: ignore\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n26 passed, 6 warnings in 0.22s\n"
+    },
+    "tests/test_interchange.py": {
+      "returncode": 0,
+      "duration_s": 0.5,
+      "tail": ".                                                                        [100%]\n1 passed in 0.21s\n"
+    },
+    "tests/test_io.py": {
+      "returncode": 0,
+      "duration_s": 0.5,
+      "tail": "............                                                             [100%]\n12 passed in 0.23s\n"
+    },
+    "tests/test_ladybugs.py": {
+      "returncode": 0,
+      "duration_s": 0.6,
+      "tail": "........                                                                 [100%]\n8 passed in 0.26s\n"
+    },
+    "tests/test_side_effects.py": {
+      "returncode": 0,
+      "duration_s": 0.7,
+      "tail": "df.fillna(method=\"ffill\")  # type: ignore\n\ntests/test_side_effects.py::TestSideEffects::test_rollup\n  ./results/execution/ref/maxhumber_redframes/redframes/verbs/rollup.py:24: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n    df = df.fillna(method=\"bfill\")  # type: ignore\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n25 passed, 6 warnings in 0.28s\n"
+    },
+    "tests/test_type_hints.py": {
+      "returncode": 0,
+      "duration_s": 0.5,
+      "tail": "...........................................................              [100%]\n59 passed in 0.25s\n"
+    }
+  }
+}

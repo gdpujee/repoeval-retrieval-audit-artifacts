@@ -1,0 +1,32 @@
+[
+  {
+    "repo": "repoeval__deepmind_tracr",
+    "positive_qrels": 2397,
+    "positive_qrels_in_query_file": 2397,
+    "share_in_query_file": 1.0
+  },
+  {
+    "repo": "repoeval__facebookresearch_omnivore",
+    "positive_qrels": 299,
+    "positive_qrels_in_query_file": 299,
+    "share_in_query_file": 1.0
+  },
+  {
+    "repo": "repoeval__google_lightweight_mmm",
+    "positive_qrels": 991,
+    "positive_qrels_in_query_file": 991,
+    "share_in_query_file": 1.0
+  },
+  {
+    "repo": "repoeval__lucidrains_imagen-pytorch",
+    "positive_qrels": 1261,
+    "positive_qrels_in_query_file": 1261,
+    "share_in_query_file": 1.0
+  },
+  {
+    "repo": "repoeval__maxhumber_redframes",
+    "positive_qrels": 273,
+    "positive_qrels_in_query_file": 273,
+    "share_in_query_file": 1.0
+  }
+]

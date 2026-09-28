@@ -1,0 +1,24 @@
+{
+  "rows": 2046,
+  "unique_task_budget_pairs": 2046,
+  "budget_violations": 0,
+  "model": "codesage/codesage-small-v2",
+  "model_revision": "4844c2f24b25e181aa43ca058cc73dd2622565c1",
+  "embedding_dimension": 1024,
+  "budgets": [
+    500,
+    1000,
+    2000,
+    4000,
+    8000,
+    16000
+  ],
+  "repositories": [
+    "repoeval__deepmind_tracr",
+    "repoeval__facebookresearch_omnivore",
+    "repoeval__google_lightweight_mmm",
+    "repoeval__lucidrains_imagen-pytorch",
+    "repoeval__maxhumber_redframes"
+  ],
+  "passed": true
+}
