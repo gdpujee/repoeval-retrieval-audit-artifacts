@@ -73,19 +73,8 @@ python3 -m pip install -r requirements.txt   # tiktoken, editdistance, numpy, ma
 ## Pinned upstream repositories
 
 Prepare both pinned upstreams before running `./run_all.sh` or the retrieval
-and execution scripts. This archive has no Git metadata, so
-use the clone commands in the bare-ZIP subsection rather than `git submodule`
-commands.
-
-For a full Git checkout:
-
-```bash
-git submodule update --init scripts/code-rag-bench external/cceval
-git -C scripts/code-rag-bench rev-parse HEAD   # expect f9e100ca9ed94b8f1983b356ae81966e30210cf4
-git -C external/cceval rev-parse HEAD          # expect 40c68d2b7ca2a8eae95d901ac80e6a540a84a53d
-```
-
-For this standalone repository checkout:
+and execution scripts. They are not Git submodules in this standalone
+repository; clone them directly:
 
 ```bash
 git clone https://github.com/code-rag-bench/code-rag-bench scripts/code-rag-bench
@@ -103,12 +92,13 @@ Then run the retrieval audit pipeline:
 
 The final retrieval evidence chain is written to `results/final/`. The
 selector uses whole chunks and asserts that every selected context satisfies
-its configured token budget. In this archive, `run_all.sh` skips the manuscript-only author gate. That gate requires the private manuscript checkout.
+its configured token budget. Here `run_all.sh` skips the manuscript-only author
+gate, which requires the private manuscript checkout.
 
 `results/execution/ref/` (the pristine per-repository trees the execution
 harness patches) is a copy of
 `scripts/code-rag-bench/retrieval/output/repoeval/repositories/function_level/`.
-Rebuild it after a fresh submodule checkout if it is absent:
+Rebuild it after cloning the pinned upstream if it is absent:
 
 ```bash
 mkdir -p results/execution/ref
@@ -177,11 +167,11 @@ python3 scripts/analyze_downstream_failures.py --indir results/downstream/v9 \
     deepseek-v4.1-flash muse-spark-1.3-contributor
 ```
 
-Without `--outdir` the scorer writes to `results/downstream/`, overwriting the
-retained V7 history. The scorer also exits non-zero if two successful rows
+Without `--outdir` the scorer writes to `results/downstream/`, mixing output
+from experiment rounds. The scorer also exits non-zero if two successful rows
 share a `(task, strategy, model)` key. `results/final/clean_dir_repro.json`
 records a check that re-running the scorer into an empty directory reproduces
-`summary.json` and both `scores_*.jsonl` byte-for-byte without touching V7.
+`summary.json` and both `scores_*.jsonl` byte-for-byte.
 
 Figures 4–6 read `results/downstream/<version>/summary.json` and
 `results/execution/<version>/summary.json`, where `<version>` defaults to `v9`
@@ -238,6 +228,6 @@ all 341 tasks under each of the three strategies.
 
 ## Credentials
 
-No credential file belongs in this project or a supplementary archive.
+No credential file belongs in this repository.
 Generation scripts read `OPENCODE_APIKEY` from `.env` (gitignored, never
 committed). The retrieval experiment does not require an API key.
